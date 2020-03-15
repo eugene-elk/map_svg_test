@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>SVG Test</title>
+    <link rel='stylesheet' href='map_style.css' />
+    <link rel='stylesheet' href='modal_style.css' />
+    <script src='script.js'></script>
+</head>
+<body>
+<svg width="1015" height="815" class="map">
+
+    <rect x="5" y="5" fill="#FFFFFF" width="1000" height="800" stroke="#777777" stroke-width="4" stroke-linejoin="round"/>
+
+    <a href="#openModal"><rect class="meetingroom"   x="5"   y="5"   fill="#FFFFFF" width="250" height="400" stroke="#777777" stroke-width="4" stroke-linejoin="round"/></a>
+    <a href="#openModal"><rect class="meetingroom"   x="255" y="5"   fill="#FFFFFF" width="250" height="400" stroke="#777777" stroke-width="4" stroke-linejoin="round"/></a>
+    <a href="#openModal"><rect class="covorking"     x="505" y="5"   fill="#FFFFFF" width="500" height="800" stroke="#777777" stroke-width="4" stroke-linejoin="round"/></a>
+    <a href="#openModal"><rect class="other"         x="5"   y="605" fill="#FFFFFF" width="500" height="200" stroke="#777777" stroke-width="4" stroke-linejoin="round"/></a>
+
+    <rect class="workplace"     x="905" y="105" fill="#EEEEEE" width="50" height="50" stroke="#777777" stroke-width="3" stroke-linejoin="round"/>
+    <rect class="workplace"     x="905" y="205" fill="#EEEEEE" width="50" height="50" stroke="#777777" stroke-width="3" stroke-linejoin="round"/>
+    <rect class="workplace"     x="905" y="305" fill="#EEEEEE" width="50" height="50" stroke="#777777" stroke-width="3" stroke-linejoin="round"/>
+    <rect class="workplace"     x="905" y="405" fill="#EEEEEE" width="50" height="50" stroke="#777777" stroke-width="3" stroke-linejoin="round"/>
+
+</svg>
+
+<div id="openModal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Room</h3>
+                <a href="#close" title="Close" class="close">Close</a>
+            </div>
+            <div class="modal-body">
+                Booking
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

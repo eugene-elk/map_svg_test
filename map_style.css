@@ -1,0 +1,25 @@
+body {
+    stroke-linecap: round;
+}
+
+.meetingroom:hover {
+    fill:#c4bcc4;
+}
+
+.covorking:hover {
+    fill:#fce388;
+}
+
+.other:hover {
+    fill:#b1e6fc;
+}
+
+.workplace:hover {
+    fill:#FF3D00;
+}
+
+.on {
+    fill: pink;
+    stroke: red;
+    stroke-width: 2;
+}
